@@ -14,7 +14,9 @@ module.exports = {
       red: colors.red,
       blue: colors.sky,
       yellow: colors.amber,
-      teal: colors.teal
+      teal: colors.teal,
+      pink: colors.pink,
+      lightPink: '#fdf5f4'
 
     }
   },
