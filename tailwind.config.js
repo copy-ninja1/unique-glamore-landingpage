@@ -4,7 +4,11 @@ module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: theme => ({
+        'contact-image': "url('/flower/flower_3.png')",
+      })
+    },
     colors: {
       // Build your palette here
       white: colors.white,
