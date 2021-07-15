@@ -1,6 +1,5 @@
 import Head from "next/head";
-import { Hero, ContactUs } from '../components'
-
+import { Hero, ContactUs, Customers } from '../components'
 // import model from '../public/model_1.png'
 export default function Home() {
   return (
@@ -12,8 +11,9 @@ export default function Home() {
       </Head>
       {/* flex flex-col items-center justify-center w-full flex-1 px-20 text-center */}
       <main className="w-full flex-1 ">
-        <Hero></Hero>
-        <ContactUs></ContactUs>
+        <Hero />
+        <Customers />
+        <ContactUs />
       </main>
 
       <footer className="flex items-center justify-center w-full h-24 border-t">
@@ -23,8 +23,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by
-          <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
+          Powered with  beauty and &nbsp;<span className='text-red text-2xl'> &hearts;</span>
         </a>
       </footer>
     </div>

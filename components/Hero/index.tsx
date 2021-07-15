@@ -3,7 +3,7 @@ import React from 'react'
 const Hero = (): JSX.Element => {
     return (<section className="relative grid grid-cols-1 md:grid-cols-2 gap-4 items-center bg-lightPink h-4/5 w-full overflow-hidden">
         <div className=" px-4 md:pl-32 z-10">
-            <h1 className="text-pink-800  text-4xl md:text-6xl font-bold	">Makeup</h1>
+            <h1 className="text-pink-800  text-4xl md:text-7xl font-bold	">Makeup</h1>
             <h2 className="text-4xl md:text-6xl font-light">
                 BEYOND <br />
         IMAGINATION

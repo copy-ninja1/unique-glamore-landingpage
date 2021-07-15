@@ -7,7 +7,7 @@ function ContactUs(): JSX.Element {
                 {/* <img src="/flower/flower_3.png" /> */}
 
                 <div className='text-center text-white'>
-                    <h2 className='text-4xl font-semibold'>Contact Us</h2>
+                    <h2 className='text-2xl md:text-6xl font-semibold text-center'>Contact Us</h2>
                     <p>Get Beautifull with a makeover you will like</p>
                 </div>
                 <form className='py-6 px-4 sm:px-12 md:px-44'>
@@ -28,7 +28,7 @@ function ContactUs(): JSX.Element {
                     <textarea className='focus:border-pink-100 focus:ring
                     focus:ring-pink-200 focus:ring-opacity-80 focus:outline-none w-full 
                     text-sm text-white placeholder-white border-none 
-                    border-pink-50 rounded bg-white bg-opacity-40 py-2 pl-10 my-4'>
+                    border-pink-50 rounded bg-white bg-opacity-40 py-2 pl-10 my-4' placeholder='Message'>
 
                     </textarea>
 
