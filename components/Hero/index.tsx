@@ -1,5 +1,4 @@
 import React from 'react'
-import BoxText from 'react-box-text'
 const Hero = (): JSX.Element => {
     return (<section className="relative pt-12 md:pb-24 bg-pink-500 h-4/5 w-full overflow-hidden">
         <header className='z-50  text-pink-50 px-6'>
