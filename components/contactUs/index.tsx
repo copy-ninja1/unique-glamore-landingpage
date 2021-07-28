@@ -7,7 +7,7 @@ function ContactUs(): JSX.Element {
                 {/* <img src="/flower/flower_3.png" /> */}
 
                 <div className='text-center text-white'>
-                    <h2 className='text-2xl md:text-6xl font-semibold text-center'>Contact Us</h2>
+                    <h2 className='text-4xl md:text-6xl font-semibold text-center'>Contact Us</h2>
                     <p>Get Beautifull with a makeover you will like</p>
                 </div>
                 <form className='py-6 px-4 sm:px-12 md:px-44'>

@@ -1,4 +1,5 @@
-import ContactUs from './contactUs'
 import Hero from './Hero'
+import Author from './author'
 import Customers from './customers'
-export { ContactUs, Hero, Customers }
+import ContactUs from './contactUs'
+export { ContactUs, Hero, Customers, Author }
